@@ -14,7 +14,7 @@ gsap.from("#box2", {
   scrollTrigger: {
     trigger: "#box2",
     scroller: "body",
-    markers: true,
+    // markers: true,
     start: "top 60%",
     end: "top 30%",
     scrub: 2,
@@ -30,7 +30,7 @@ gsap.from(".section .my-heading", {
   scrollTrigger: {
     trigger: ".my-heading",
     scroller: "body",
-    markers: true,
+    // markers: true,
     start: "top 60%",
     end: "top 30%",
     scrub: 2,
@@ -44,7 +44,6 @@ gsap.from(".section .my-title", {
   scrollTrigger: {
     trigger: ".my-heading",
     scroller: "body",
-    markers: true,
     start: "top 60%",
     end: "top 30%",
     scrub: 2,
